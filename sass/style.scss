@@ -1,0 +1,30 @@
+$breakpoint-lg: 48rem;
+$breakpoint-md: $breakpoint-lg / 2;
+$breakpoint-sm: $breakpoint-md / 2;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1rem;
+}
+
+@import "utilities/container";
+
+@import "components/card";
+
+@import "components/nav";
+
+@import "components/footer";
+
+@import "components/cta";
+
